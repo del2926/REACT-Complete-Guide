@@ -1,0 +1,20 @@
+.Person {
+  width: 60%;
+  margin: 16px auto;
+  background-color: #ccc;
+  border: 1px solid blue;
+  box-shadow: 0 3px 3px #333;
+  padding: 16px;
+  text-align: center;
+}
+
+.Person input {
+  height: 30px;
+  padding-left: 5px;
+}
+
+@media (min-width: 500px) {
+  .Person {
+    width: "450px";
+  }
+}
